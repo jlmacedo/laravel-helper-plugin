@@ -1,0 +1,3 @@
+<?php
+
+$url = route('<caret>');

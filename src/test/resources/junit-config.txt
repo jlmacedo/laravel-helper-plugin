@@ -1,0 +1,5 @@
+// JUnit dependency for tests is needed.
+// Uncomment this in build.gradle.kts if you need to run tests:
+// dependencies {
+//     testImplementation("junit:junit:4.13.2")
+// }
