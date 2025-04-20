@@ -82,7 +82,7 @@ Any amount is greatly appreciated! Your support helps us dedicate more time to i
 
 ## :copyright: License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License](LICENSE).
 
 ---
 
