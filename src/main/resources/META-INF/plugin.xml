@@ -1,0 +1,42 @@
+<idea-plugin>
+    <id>com.laravel.plugin</id>
+    <name>Laravel Helper</name>
+    <vendor>Jose Macedo</vendor>
+    <description>Laravel routes, translations and views completion and navigation</description>
+
+    <!-- Product and plugin compatibility requirements -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.jetbrains.php</depends>
+    <depends>org.jetbrains.plugins.yaml</depends>
+    <depends>com.intellij.modules.json</depends>
+
+    <!-- Resource bundle paths -->
+    <resource-bundle>messages.LaravelPluginBundle</resource-bundle>
+
+    <!-- Plugin version requirements -->
+    <idea-version since-build="243"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Code Completion -->
+        <completion.contributor language="PHP" implementationClass="com.laravel.plugin.completion.RouteCompletionContributor" order="first"/>
+        <completion.contributor language="PHP" implementationClass="com.laravel.plugin.completion.TranslationCompletionContributor" order="first"/>
+        <completion.contributor language="PHP" implementationClass="com.laravel.plugin.completion.ViewCompletionContributor" order="first"/>
+        <completion.contributor language="PHP" implementationClass="com.laravel.plugin.completion.AssetCompletionContributor" order="first"/>
+        
+        <!-- Navigation -->
+        <gotoDeclarationHandler implementation="com.laravel.plugin.navigation.RouteGotoDeclarationHandler"/>
+        <gotoDeclarationHandler implementation="com.laravel.plugin.navigation.TranslationGotoDeclarationHandler"/>
+        <gotoDeclarationHandler implementation="com.laravel.plugin.navigation.ViewGotoDeclarationHandler"/>
+        <gotoDeclarationHandler implementation="com.laravel.plugin.navigation.AssetGotoDeclarationHandler"/>
+        <gotoDeclarationHandler implementation="com.laravel.plugin.navigation.LaravelGotoDeclarationHandler"/>
+        
+        <!-- Line Markers -->
+        <codeInsight.lineMarkerProvider language="PHP" implementationClass="com.laravel.plugin.navigation.LaravelLineMarkerProvider"/>
+        
+        <!-- Project Services -->
+        <projectService serviceImplementation="com.laravel.plugin.services.RouteService"/>
+        <projectService serviceImplementation="com.laravel.plugin.services.TranslationService"/>
+        <projectService serviceImplementation="com.laravel.plugin.services.ViewService"/>
+        <projectService serviceImplementation="com.laravel.plugin.services.AssetService"/>
+    </extensions>
+</idea-plugin>

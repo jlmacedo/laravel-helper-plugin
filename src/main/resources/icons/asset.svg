@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+    <!-- Document base -->
+    <path d="M3,1 L10.5,1 L13,3.5 L13,15 L3,15 Z" fill="#f7f7f7" stroke="#6e6e6e" stroke-width="1" />
+
+    <!-- Folded corner -->
+    <path d="M10.5,1 L10.5,3.5 L13,3.5 Z" fill="#6e6e6e" stroke="#6e6e6e" stroke-width="1" />
+
+    <!-- Laravel color accent -->
+    <rect x="5" y="6" width="6" height="2" fill="#fb503b" rx="0.5" ry="0.5" />
+
+    <!-- Asset text - stylized A -->
+    <path d="M6,11 L7.5,9 L9,11 M6.5,10.5 L8.5,10.5" fill="none" stroke="#333333" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
