@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.laravel.plugin"
-version = "1.0.138"
+version = "1.0.139"
 
 repositories {
     mavenCentral()
@@ -54,7 +54,7 @@ tasks {
     
     patchPluginXml {
         sinceBuild.set("243")
-        untilBuild.set("251")
+        untilBuild.set("251.*")
     }
 
     buildSearchableOptions {  // optional – speeds up CI

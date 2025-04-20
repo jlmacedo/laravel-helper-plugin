@@ -64,7 +64,7 @@ This plugin currently provides the following awesome features:
 
 ## :handshake: Contributing
 
-We welcome contributions! If you have any ideas for new features, bug fixes, or improvements, please open an issue or submit a pull request on our GitHub repository: [https://github.com/your-github-repo](https://github.com/your-github-repo)
+We welcome contributions! If you have any ideas for new features, bug fixes, or improvements, please open an issue or submit a pull request on our GitHub repository: [https://github.com/jlmacedo/laravel-helper-plugin](https://github.com/your-github-repo)
 
 ## :pray: Support the Project
 
