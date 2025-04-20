@@ -1,8 +1,8 @@
 # Laravel Plugin for JetBrains IDEs :heart:
 
-[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/23910-laravel-plugin.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/23910-laravel-plugin)
-[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/d/23910-laravel-plugin.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/23910-laravel-plugin)
-[![Likes](https://img.shields.io/endpoint?url=https://plugins.jetbrains.com/api/plugins/23910/likes)](https://plugins.jetbrains.com/plugin/23910-laravel-plugin/reviews)
+[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/26832-laravel-helper.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/26832-laravel-helper)
+[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/d/26832-laravel-helper.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/26832-laravel-helper)
+[![Likes](https://img.shields.io/badge/dynamic/json?style=flat-square&color=brightgreen&label=likes&query=%24.likes&url=https://plugins.jetbrains.com/api/plugins/26832)](https://plugins.jetbrains.com/plugin/26832-laravel-helper#reviews)
 
 Enhance your Laravel development experience within JetBrains IDEs like PHPStorm with this powerful plugin! This plugin provides intelligent code insight, navigation, and more, specifically tailored for Laravel projects.
 
